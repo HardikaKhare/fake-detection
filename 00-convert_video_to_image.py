@@ -5,6 +5,7 @@ import math
 
 base_path = '.\\train_sample_videos\\'
 
+
 def get_filename_only(file_path):
     file_basename = os.path.basename(file_path)
     filename_only = file_basename.split('.')[0]

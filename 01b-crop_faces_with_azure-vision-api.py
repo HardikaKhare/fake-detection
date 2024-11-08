@@ -12,6 +12,7 @@ def get_filename_only(file_path):
     filename_only = file_basename.split('.')[0]
     return filename_only
 
+
 with open(os.path.join(base_path, 'metadata.json')) as metadata_json:
     metadata = json.load(metadata_json)
     print(len(metadata))

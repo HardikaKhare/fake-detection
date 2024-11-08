@@ -9,6 +9,7 @@ import tensorflow as tf
 from tensorflow.keras import backend as K
 print('TensorFlow version: ', tf.__version__)
 
+
 # Set to force CPU
 #os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 #if tf.test.gpu_device_name():

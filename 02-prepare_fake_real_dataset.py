@@ -10,6 +10,7 @@ dataset_path = '.\\prepared_dataset\\'
 print('Creating Directory: ' + dataset_path)
 os.makedirs(dataset_path, exist_ok=True)
 
+
 tmp_fake_path = '.\\tmp_fake_faces'
 print('Creating Directory: ' + tmp_fake_path)
 os.makedirs(tmp_fake_path, exist_ok=True)

@@ -11,6 +11,7 @@ physical_devices = tf.config.list_physical_devices('GPU')
 print(physical_devices)
 tf.config.experimental.set_memory_growth(physical_devices[0], True)
 
+
 base_path = '.\\train_sample_videos\\'
 
 def get_filename_only(file_path):
